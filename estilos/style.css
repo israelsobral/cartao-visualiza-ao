@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+        
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin: auto;
+}
+
+div {
+    padding: 40px;
+}
+
+div.quadrado-sedans {
+    border: none; 
+    border-radius: 6px 6px 0px 0px;
+    width: 205px;
+    height: 350px;
+    margin: auto;
+}
+
+div#sedans {
+    background-color: #E38525;
+    
+}
+
+div.quadrado-suvs {
+    border: none; 
+    width: 205px;
+    height: 350px;
+    margin: auto;
+}
+
+div#suvs {
+    background-color: #006970;
+}
+
+div.quadrado-luxury {
+    border: none; 
+    border-radius: 0px 0px 6px 6px;
+    width: 205px;
+    height: 350px;
+    margin: auto;
+}
+
+div#luxury {
+    background-color: #004241;
+}
+
+img#imagens {
+    height: 35px;
+}
+
+h1#especial {
+    font-family: "Big Shoulders Display", serif;
+    font-size: 25pt;
+    color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #ffffffbf;
+    font-family: "Lexend Deca", serif;
+    font-size: 10.5pt;
+    line-height: 1.8em;
+    padding-top: 15px;
+}
+
+input#sedans {
+    background-color: #f2f2f2;
+    color: #E38525;
+    font-family: "Lexend Deca", serif;
+    margin-top: 60px;
+    padding: 13px;
+    border-radius: 25px;
+    border: none;
+    width: 130px;
+}
+
+input#sedans:hover {
+    background-color: transparent;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+}
+
+input#suvs {
+    background-color: #f2f2f2;
+    color: #006970;
+    font-family: "Lexend Deca", serif;
+    margin-top: 50px;
+    padding: 13px;
+    border-radius: 25px;
+    border: none;
+    width: 130px;
+}
+
+input#suvs:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+}
+
+input#luxury {
+    background-color: hsl(0, 0%, 95%);
+    color: #004241;
+    font-family: "Lexend Deca", serif;
+    margin-top: 50px;
+    padding: 13px;
+    border-radius: 25px;
+    border: none;
+    width: 130px;
+}
+
+input#luxury:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+}
